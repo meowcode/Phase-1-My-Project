@@ -36,3 +36,7 @@
 .tabs-content--active{
     display:block;
 }
+
+.like-glyph{
+    background: transparent
+}

@@ -46,4 +46,14 @@ function fetchCatFacts(){
 
 document.querySelector("#cat-button").addEventListener("click", fetchCatFacts)
 
+const glyphStates = {
+    "♡": "♥",
+    "♥": "♡"
+  };
+  
+const colorStates = {
+    "red" : "",
+    "": "red"
+  };
 
+  
