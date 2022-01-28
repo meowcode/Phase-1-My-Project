@@ -32,3 +32,14 @@ function fetchCatFacts(){
     fetch("https://cat-fact.herokuapp.com/facts")
 .then(response =>{
     return response.json()
+})
+.then(data => {
+    console.log(data)
+    data.forEach(facts=>{
+        const catDiv=document.querySelector(".cat-facts")
+        const tag= document.createElement("p")
+        tag.innerText=facts.text
+        catDiv.appendChild(tag)
+    })
+})
+}
