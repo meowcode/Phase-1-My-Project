@@ -57,4 +57,11 @@ function toggle(){
     }
 }
 
-  
+function toggle2(){
+    if (heartLike.style.color == "red"){
+        heartLike.style.color = "grey"
+    }
+    else{
+        heartLike.style.color = "red"
+    }
+}
