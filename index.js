@@ -27,3 +27,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
         tabsContainer.querySelector(".tabs-sidebar .tabs-button").click();
     })
 });
+
+function fetchCatFacts(){
+    fetch("https://cat-fact.herokuapp.com/facts")
+.then(response =>{
+    return response.json()
