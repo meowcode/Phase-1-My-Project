@@ -14,7 +14,7 @@ function clickTabs(){
                 tab.classList.remove("tabs-content--active");
             });
 
-            button.classList.add("tabs-button-active");
+            button.classList.add("tabs-button--active");
             tabToActivate.classList.add("tabs-content--active");
         });
     });

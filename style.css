@@ -27,12 +27,12 @@
     background:rgb(245, 250, 249)
 }
 
-.tabs_content{
+.tabs-content{
     padding: 15px;
     font-size: 1rem;
     display: none;
 }
 
-.tabs_content--active{
+.tabs-content--active{
     display:block;
 }
