@@ -43,3 +43,7 @@ function fetchCatFacts(){
     })
 })
 }
+
+document.querySelector("#cat-button").addEventListener("click", fetchCatFacts)
+
+
