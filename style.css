@@ -37,14 +37,14 @@
     display:block;
 }
 
-.like-glyph{
+#like-glyph{
     background: transparent;
     border: none;
     outline: none;
     font-size: 20px;
-    color: black;
+    color: grey;
 }
 
-.like-glyph:hover{
+#like-glyph:hover{
     cursor:pointer;
 }

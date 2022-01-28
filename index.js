@@ -46,5 +46,15 @@ function fetchCatFacts(){
 
 document.querySelector("#cat-button").addEventListener("click", fetchCatFacts)
 
+const heartLike = document.querySelector("#like-glyph");
+
+function toggle1(){
+    if (heartLike.style.color == "red"){
+        heartLike.style.color = "grey"
+    }
+    else{
+        heartLike.style.color = "red"
+    }
+}
 
   
