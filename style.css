@@ -1,0 +1,19 @@
+.tabs{
+    border:1px solid#ffffff;
+    display: flex;
+}
+
+.tabs-sidebar{
+    width:125px;
+    flex-shrink: 0;
+    background:rgb(255, 255, 255)
+
+.tabs-button{
+    display: block;
+    padding: 10px;
+    background:#55cea6;
+    border: none;
+    width: 100%;
+    outline:none;
+    cursor:pointer
+}
