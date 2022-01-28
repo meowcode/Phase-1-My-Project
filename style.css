@@ -38,5 +38,13 @@
 }
 
 .like-glyph{
-    background: transparent
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: black;
+}
+
+.like-glyph:hover{
+    cursor:pointer;
 }
