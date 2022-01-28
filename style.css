@@ -1,3 +1,7 @@
+.body{
+    background-color: rgb(255, 255, 255);
+  }
+
 .tabs{
     border:1px solid#ffffff;
     display: flex;
@@ -7,6 +11,7 @@
     width:125px;
     flex-shrink: 0;
     background:rgb(255, 255, 255)
+}
 
 .tabs-button{
     display: block;
@@ -15,5 +20,19 @@
     border: none;
     width: 100%;
     outline:none;
-    cursor:pointer
+    cursor:pointer;
+}
+
+.tabs-button:active{
+    background:rgb(245, 250, 249)
+}
+
+.tabs_content{
+    padding: 15px;
+    font-size: 1rem;
+    display: none;
+}
+
+.tabs_content--active{
+    display:block;
 }
