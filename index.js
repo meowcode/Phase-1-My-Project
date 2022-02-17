@@ -28,17 +28,20 @@ document.addEventListener("DOMContentLoaded", ()=>{
     })
 });
 
+let catFacts = []
+
 function fetchCatFacts(){
     fetch("https://cat-fact.herokuapp.com/facts")
 .then(response =>{
     return response.json()
 })
-.then(data => {
+.then(data=> {
     console.log(data)
-    data.forEach(facts=>{
+    data.forEach(fact=>{
+        catFacts.push(fact)
         const catDiv=document.querySelector(".cat-facts")
         const tag= document.createElement("p")
-        tag.innerText=facts.text
+        tag.innerText=fact.text
         catDiv.appendChild(tag)
     })
 })
@@ -56,3 +59,4 @@ function toggle(){
         heartLike.style.color = "red"
     }
 }
+
